@@ -1,0 +1,40 @@
+#nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-attachment: fixed;
+    background-color: rgb(63, 88, 88);
+    height: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar-Logo a{
+   color: aliceblue;
+   padding: 15px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+}
